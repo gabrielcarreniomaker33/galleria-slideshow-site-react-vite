@@ -5,8 +5,10 @@ export function Header() {
   return (
     <>
       <header className="header">
-        <img src={logo} alt="Logo page" />
-        <h2>start slideshow</h2>
+        <div className="container-data">
+          <img className="logo-header" src={logo} alt="Logo page" />
+          <h2 className="title-header">start slideshow</h2>
+        </div>
       </header>
     </>
   );
